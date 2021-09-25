@@ -6,7 +6,7 @@ app.get('/',function(req,res) {
 });
 
 app.get('/galletas',function(req,res) {
-  res.status(200).send("ten galletas");
+  res.status(200).send("¡Te dare galletas!");
 });
 
 module.exports = app.listen(process.env.PORT || 4000, ()=>{
